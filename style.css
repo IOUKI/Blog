@@ -144,48 +144,9 @@ header{
     height: 2rem;
 }
 
-/* #scrollToContentBtn > p {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    transition: .5s;
-}
-
-#scrollToContentBtn > svg {
-    width: 100%;
-    height: 20px;
-    transition: .5s;
-}
-
-#scrollToContentBtn p:hover {
-
-} */
-
-/* #scrollToContentBtn:hover p {
-    font-size: 25px;
-} */
-
 #scrollToContentBtn p:hover svg {
     height: 50px;
 }
-
-/* .section-top-content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#scrollToContentBtn {
-    position: relative;
-    bottom: 0;
-    height: 100px;
-    width: 100px;
-    color: #fff;
-    background-color: #000;
-    z-index: 100000;
-} */
 
 .container{
     max-width: 65rem;
