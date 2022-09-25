@@ -42,6 +42,9 @@ header{
     top: 0;
     left: 0;
     background-color: rgb(56, 165, 238, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-content {
@@ -64,7 +67,7 @@ header{
     100% {opacity: 1;}
 }
 
-.overlay > h1 {
+/* .overlay > h1 {
     width: 100%;
     height: 100%;
     color: #fff;
@@ -72,8 +75,117 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadein 5s ease;
+    animation: fadein 7s ease;
+} */
+
+.section-top-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
+.section-top-content {
+    width: 100%;
+    height: 100%;
+}
+
+.section-top-content > .block > h1,
+.section-top-content > .block > p {
+    text-align: center;
+}
+
+.section-top-content > .block > h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.section-top-content > .block > p {
+    font-size: 1.5rem;
+    color: #0d384e;
+}
+
+.scrollToContentBtn {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.scrollBtn-Content {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.scrollBtn-Content > p {
+    font-size: 1rem;
+}
+
+.scrollBtn-Content > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.scrollBtn-Content > p,
+.scrollBtn-Content > svg {
+    transition: .5s;
+}
+
+.scrollBtn-Content:hover p {
+    font-size: 1.8rem;
+}
+
+.scrollBtn-Content:hover svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* #scrollToContentBtn > p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    transition: .5s;
+}
+
+#scrollToContentBtn > svg {
+    width: 100%;
+    height: 20px;
+    transition: .5s;
+}
+
+#scrollToContentBtn p:hover {
+
+} */
+
+/* #scrollToContentBtn:hover p {
+    font-size: 25px;
+} */
+
+#scrollToContentBtn p:hover svg {
+    height: 50px;
+}
+
+/* .section-top-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scrollToContentBtn {
+    position: relative;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    background-color: #000;
+    z-index: 100000;
+} */
 
 .container{
     max-width: 65rem;
